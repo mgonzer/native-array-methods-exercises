@@ -1,13 +1,13 @@
 function onlyEven (array) {
-  // your code here
+  return array.filter(i=>i%2==0)
 };
 
 function onlyOneWord (array) {
-  // your code here
+  return array.filter(i=>i.split(' ').length<=1)
 };
 
 function positiveRowsOnly (array) {
-  // your code here
+
 };
 
 function allSameVowels (array) {
